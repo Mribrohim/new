@@ -1,0 +1,38 @@
+.header .product{
+    max-width: 1000px;
+    height: 600px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: auto;
+}
+ .productItem{
+    width: 200px;
+    min-height: 400px;
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
+ .productItem__img{
+    width: 200px;
+    height: 200px;
+}
+ .productItem__title{
+    font-size: 20px;
+    color: black;
+ 
+}
+ .productItem__price{
+    font-size: 20px;
+    color: black;
+       font-weight: 700;
+}
+ .productItem__button{
+    font-size: 25px;
+    color: black;    
+    font-weight: 700;
+    margin-top: 20px;
+    border: 2px solid red;
+}
